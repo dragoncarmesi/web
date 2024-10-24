@@ -20,7 +20,7 @@
         }
 
         // Inserción en tbl_aportaciones
-        $sql_aportaciones = "INSERT INTO tbl_aportaciones (Aportacion) VALUES ('$Aportacion')";
+        $sql_aportaciones = "INSERT INTO tbl_aportaciones (Aportacion) VALUES ('$Aportaciones')";
         if (mysqli_query($conn, $sql_aportaciones)) {
             echo "Aportación subida correctamente.<br>";
         } else {
