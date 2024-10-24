@@ -1,0 +1,121 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipografía */
+    background-color: #f4f4f4; /* Fondo suave */
+    margin: 0; /* Sin margen */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+    padding: 12px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+    border: 1px solid #ddd; /* Borde suave */
+}
+
+/* Estilo para los encabezados de la tabla */
+th {
+    background-color: #00796b; /* Fondo verde oscuro */
+    color: white; /* Texto blanco */
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilo para las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+tr:hover {
+    background-color: #e0f2f1; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para el menú */
+nav {
+    background-color: #333; /* Fondo oscuro */
+    padding: 10px; /* Espaciado interno */
+}
+
+nav ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+    margin: 0; /* Sin margen */
+}
+
+nav ul li {
+    display: inline; /* Elementos en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilo para el encabezado de la página */
+h1 {
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipografía */
+    background-color: #f4f4f4; /* Fondo suave */
+    margin: 0; /* Sin margen */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 400px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar formulario */
+}
+
+/* Estilo para los labels */
+label {
+    display: block; /* Hacer que cada label ocupe toda la línea */
+    margin-bottom: 8px; /* Espaciado inferior */
+    font-weight: bold; /* Negrita */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para los inputs */
+input[type="text"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Asegurar que el padding y el borde se incluyan en el ancho */
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #00796b; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    width: 100%; /* Ancho completo */
+}
+
+/* Cambiar color del botón al pasar el mouse */
+button:hover {
+    background-color: #005b4f; /* Color más oscuro */
+}
