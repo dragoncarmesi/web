@@ -43,8 +43,8 @@
 ?>
 
 <br>
-<form action="Inicio.html">
-    <button type="submit" name="btnVer">Ir a Incio</button>
+<form action="Index.html">
+    <button type="submit" name="btnVer">Ir a Inicio</button>
 </form>
 
 </body>
